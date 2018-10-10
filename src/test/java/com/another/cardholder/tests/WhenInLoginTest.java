@@ -25,8 +25,6 @@ public class WhenInLoginTest {
 	
 	@Test
     public void checkEvernoteStaticPage() {
-//		System.setProperty("webdriver.chrome.driver", "src\\main\\resources\\chromedriver.exe");
-//		driver = new ChromeDriver();
 		loginStep.open_login_page();
 		
         loginStep.input_username("username");
