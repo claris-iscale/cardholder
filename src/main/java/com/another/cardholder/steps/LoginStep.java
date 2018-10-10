@@ -20,4 +20,9 @@ public class LoginStep extends ScenarioSteps{
 		loginPage.open();
 		getDriver().manage().window().maximize();
 	}
+	
+	@Step
+	public void input_password(String password) {
+		loginPage.inputUsername(password);
+	}
 }

@@ -26,8 +26,8 @@ public class WhenInLoginTest {
 	@Test
     public void checkEvernoteStaticPage() {
 		loginStep.open_login_page();
-		
         loginStep.input_username("username");
+        loginStep.input_password("corre");
     }
 	
 }
